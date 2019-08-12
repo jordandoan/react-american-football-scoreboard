@@ -8,11 +8,11 @@ class ScoreBoard extends Component {
             <section className="scoreboard">
                 <div className="topRow">
                     <div className="home">
-                        <Team team="Lions" score={this.props.homeScore}/>
+                        <Team team={this.props.homeScore.team} score={this.props.homeScore.score}/>
                     </div>
                     <div className="timer">00:03</div>
                     <div className="away">
-                        <Team team="Tigers" score={this.props.awayScore}/>
+                        <Team team={this.props.awayScore.team} score={this.props.awayScore.score}/>
                     </div>
                 </div>
                 <BottomRow />
