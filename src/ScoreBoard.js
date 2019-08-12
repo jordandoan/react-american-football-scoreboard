@@ -18,7 +18,6 @@ class ScoreBoard extends Component {
                 <BottomRow />
             </section>
         );
-
     }
 }
 export default ScoreBoard;
